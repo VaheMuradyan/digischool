@@ -85,9 +85,9 @@ public class Main {
 
         //task59
 
-        int a = x / 100;
-        int b = (x % 100) / 10;
-        int c = x % 10;
+        int a = x / 10;
+        int b = (x / 10) % 10;
+        int c = x / 100;
 
         if(a > b && a > c){
             System.out.println(a);
