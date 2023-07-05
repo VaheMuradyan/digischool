@@ -85,7 +85,7 @@ public class Main {
 
         //task59
 
-        int a = x / 10;
+        int a = x % 10;
         int b = (x / 10) % 10;
         int c = x / 100;
 
